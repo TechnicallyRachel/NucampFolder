@@ -1,11 +1,11 @@
 // using a wbhile loop
 
 function repeat(string, num) {
-  let repeatedString = "";
+  let i = "";
   while (num > 0) {
-    repeatedString += string;
-    times--;
+    i += string;
+    num--;
   }
-  return repeatedString;
+  return i;
 }
-repeat("abc", 3);
+repeat("x", 3);
